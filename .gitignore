@@ -45,3 +45,5 @@ site/.vercel/
 site/.netlify/
 site/.env
 site/.env.*
+
+.github/aw/logs/
