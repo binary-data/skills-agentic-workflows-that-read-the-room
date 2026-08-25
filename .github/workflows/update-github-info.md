@@ -9,6 +9,7 @@ permissions:
   contents: read
   pull-requests: read
 strict: true
+model: gpt-5.5
 network:
   allowed:
     - defaults
