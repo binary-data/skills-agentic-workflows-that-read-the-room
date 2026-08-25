@@ -14,6 +14,7 @@ network:
     - defaults
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 tools:
   github:
     mode: gh-proxy
@@ -35,12 +36,12 @@ from these official GitHub sources:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Use the findings to update `site/content/github-info.md` with short, practical
 guidance that helps developers learn GitHub faster. Mention the source for every
-update derived from the GitHub Blog or GitHub Changelog, and use
-https://awesome-copilot.github.com/workflows/ as an additional public reference
-when it is relevant.
+update derived from the GitHub Blog, GitHub Changelog, or Awesome Copilot
+workflows.
 
 Review the resulting diff, then use the configured `create-pull-request`
 safe-output to open a pull request for Mona to review. Do not write directly to
