@@ -54,8 +54,6 @@
 
 name: "update-github-info"
 on:
-  schedule:
-    - cron: "0 9 * * *"
   workflow_dispatch:
     inputs:
       aw_context:
